@@ -1,0 +1,23 @@
+.corpo{
+    background: black;
+    display: grid;
+    grid-template-areas: "fundao"
+    "rodape";
+    grid-template-columns: auto;
+    grid-template-rows:  45rem;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.fundao{
+    margin: -6.8px;
+    
+    grid-area: fundao;
+    
+}
+
+.rodape{
+    padding: 2rem;
+    grid-area: rodape;
+}
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Style/reset.css">
+    <link rel="stylesheet" href="./Style/Style.css">
+    <link rel="shortcut icon" type="imagex/png" href="./img/icons8-twitter-250.png">
+
+    <script src="IMC.js"></script>
+</head>
+
+<body>
+    <section class="borda">
+        <div class="twitterlogo">
+            <img src="./img/icons8-excluir-150.png" width="19px" height="22px" class="twitterlogo" style="margin-top:20px;">
+            <img src="./img/tt logo.png" class="twitterlogo logo">
+        </div>
+        <section class="borda2">
+            <div class="titulos">
+                <h1>Digite sua senha</h1>
+            </div>
+            <div class="titulos inputs">
+                <input type="text" id="nome" placeholder="E-mail" onkeypress="return lettersOnly(event);">
+                <input type="text" id="convidado" placeholder="Senha" onkeypress="return lettersOnly(event);">
+                <a href="./cadastro.html"><p class="esqueceu">Esqueceu sua senha?</p></a>
+                <button onclick="validando()" class="botazinho">Entrar</button>
+            </div>
+            <a href="./cadastro.html"><p class="naotem">Não tem uma conta? <strong>Inscreva-se</strong></p></a>
+            
+        </section>
+    </body>
+    </section>
+
+</html>

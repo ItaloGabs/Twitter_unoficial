@@ -1,0 +1,129 @@
+body{
+    background: rgb(39, 46, 53);
+    /* background: url(./unoficial.jpg) repeat; */
+    font-family: 'Roboto', sans-serif;
+    margin-top: 14px;
+}
+
+.twitterlogo{
+    display: flex;
+    margin-bottom: 0.1rem;
+    flex-wrap: wrap;
+    
+}
+
+
+.borda{
+    background-color: rgb(0, 0, 0);
+    border-radius: 16px;
+    padding: 0em 9px 1.2rem;
+
+}
+
+.borda2{
+    padding: 0 20px 0;
+}
+
+
+.titulos{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    margin-bottom: 3rem; 
+    color: white;
+}
+
+h1{
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+a{
+    text-decoration: none;
+}
+
+strong{
+    color: #1369eb;
+}
+
+.esqueceu{
+    margin: 0 10px;
+    color: #1369eb;
+    font-size: 14px;
+}
+
+.esqueceu:hover{
+    text-decoration: underline #1369eb;
+}
+
+.naotem{
+    margin-top: 3rem;
+    color: rgb(77, 77, 77);
+}
+
+
+
+.botazinho{
+    background-color: #c6d494;
+    font-size: 20px;
+    border: 1px #c6d494 ;
+    border-radius: 30px;  
+    margin-top: 9rem;
+    padding: 0.9rem;
+    color: rgb(0, 0, 0);
+}
+
+.botazinho:hover{
+    transition: all 1s;
+    background-color: rgb(211, 211, 211);
+}
+
+
+
+input{
+    padding: 20px 4px;
+    border: 3px solid rgb(153, 153, 153);
+    border-radius: 0.4rem;
+    background: rgb(0, 0, 0);
+}
+
+#convidado{
+    margin-top: 28px;
+}
+
+
+
+@media screen and (min-width: 1360px) {
+    .borda{
+        margin: 0.3rem 22.1rem;
+    }
+    .logo{
+        margin-top: 12px;
+        margin-left: 43%;
+        width: 5.4%;
+        height: 85%;
+    }
+}
+@media screen and (min-width: 1024px) {
+    .borda{
+        margin: 0.3rem 22.1rem;
+    }
+    .logo{
+        margin-top: 12px;
+        margin-left: 43%;
+        width: 5.4%;
+        height: 85%;
+    }
+}
+@media screen and (min-width: 2560px) {
+    .borda{
+       margin: 18rem 56rem;
+    }
+    .logo{
+        padding-right: 19rem;
+        margin-top: 14px;
+        width: 47.4%;
+        height: 85%;
+        
+    }
+}
